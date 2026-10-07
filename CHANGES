@@ -1,0 +1,4 @@
+1.0.0 2026-10-07
+  - Derivative (processed-data) BIDS repackaging of Dryad doi:10.5061/dryad.5qfttdz6t (version 2) for NEMAR.
+  - Original files byte-for-byte under sourcedata/dryad-5qfttdz6t/ (fig2_contspk_LFP_iEEG_data.mat withheld, see README).
+  - Per-participant folders; Figure 2 arrays split per participant and session (exact round-trip).

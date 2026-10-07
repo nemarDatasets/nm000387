@@ -1,0 +1,13 @@
+{
+  "Description": "Figure 1: 80-120 Hz ripple-band iEEG signal, 44 trials x 5000 samples, electrode TT1.",
+  "Sources": [
+    "bids::sourcedata/dryad-5qfttdz6t/fig1_NIH025_s1_chanTT1_rippleband_trials.mat"
+  ],
+  "Variables": [
+    "ripple_band_TT1",
+    "ripple_band_trials_time"
+  ],
+  "Repackaging": "Original file, bytes unchanged (renamed).",
+  "SamplingFrequency": 1000,
+  "FileFormat": "MATLAB v5 MAT"
+}

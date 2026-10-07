@@ -1,0 +1,31 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww14240\viewh13160\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 README\
+\
+This folder contains the code and data to produce panels presented in the main figures, Figure 1-4 of the manuscript \'91Ripples reflect a spectrum of synchronous spiking activity in human anterior temporal lobe.\'92\
+\
+generate_fig1_ripple_timefrequency.m creates plots to review an example iEEG signal. It calls the following data files which contain the raw iEEG signal, ripple band signal, ripple event raster, and ripple rate for one electrode in medial temporal lobe for one participant:\
+\'91fig1_NIH025_s1_chanTT1_data.mat\'92\
+\'91fig1_NIH025_s1_chanTT1_rippleband_trials.mat\'92\
+\'91fig1_NIH025_s1_chanTT1_rippleraster.mat\'92\
+\'91fig1_NIH025_s1_chanTT1_ripplerate.mat\'92\
+\
+generate_fig2_spikerate_LFP_iEEG.m computes the correlation between continuous spiking, LFP, and iEEG for one representative patient. It calls the data file:\
+\'91fig2_contspk_LFP_iEEG_data.mat\'92\
+\
+generate_fig3_LFPripple_iEEGripple_PPC.m computes the pairwise phase consistent (PPC) between LFP ripple signal and max iEEG ripple amplitude for one representative participant. It calls the following data files:\
+\'91fig3_LFP_iEEG_ripple_NIH037_data.mat\'92\
+\'91fig3_LFP_iEEG_ripple_NIH037_PPC_computed.mat\'92\
+\
+generate_fig4_spike_LFP_PPC.m computes the PPC between the spikes and the local field potentials for one representation participant. It calls the data file which contains the indices of spikes and the LFP:\
+\'91fig4_spike_LFP_NIH037_s1_data.mat\'92\
+\
+\
+\
+}

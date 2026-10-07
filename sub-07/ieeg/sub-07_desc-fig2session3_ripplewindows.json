@@ -1,0 +1,16 @@
+{
+  "Description": "Figure 2: iEEG and micro-LFP ripple-band signal segments and windowed iEEG ripple amplitude, LFP ripple amplitude and z-scored spike rate for this participant, recording session column 3 of the original cell arrays.",
+  "Sources": [
+    "bids::sourcedata/dryad-5qfttdz6t/fig2_contspk_LFP_iEEG_data.mat (withheld, see WITHHELD.md; original on Dryad)"
+  ],
+  "Variables": [
+    "iEEGripple_sig_cont",
+    "iEEGripple_win",
+    "lfpripple_sig_cont",
+    "lfpripple_win",
+    "spkrt_Z_win"
+  ],
+  "Repackaging": "Cell {participant row, session column} of each variable saved unchanged (scipy.io.savemat, MAT v5); exact round-trip.",
+  "SamplingFrequency": 1000,
+  "FileFormat": "MATLAB v5 MAT"
+}

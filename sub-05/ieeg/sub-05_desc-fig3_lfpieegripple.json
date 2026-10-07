@@ -1,0 +1,15 @@
+{
+  "Description": "Figure 3: micro-LFP and LFP ripple-band signals [148 epochs x 96 MEA channels x 4001 samples] and z-scored ripple envelopes / ripple indicators of 4 nearby iEEG channels [148 x 4001 x 4].",
+  "Sources": [
+    "bids::sourcedata/dryad-5qfttdz6t/fig3_LFP_iEEG_ripple_NIH037_data.mat"
+  ],
+  "Variables": [
+    "LFP_signal",
+    "LFPripple_sig",
+    "iEEGripple_envZ",
+    "iEEGripple_logic"
+  ],
+  "Repackaging": "Original file, bytes unchanged (renamed).",
+  "SamplingFrequency": 1000,
+  "FileFormat": "MATLAB v5 MAT"
+}

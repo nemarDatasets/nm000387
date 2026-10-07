@@ -1,0 +1,24 @@
+{
+  "Description": "Figure 4: MEA LFP epochs [18 electrodes x 118 trials x 4001], spike rasters [33 units x 4001 x 118], spike indices and phases at 60 frequencies (2-400 Hz), LFP-ripple indicators, channel/unit bookkeeping, trial response.",
+  "Sources": [
+    "bids::sourcedata/dryad-5qfttdz6t/fig4_spike_LFP_NIH037_s1_data.mat"
+  ],
+  "Variables": [
+    "LFP_timeseries",
+    "spike_raster",
+    "spike_id",
+    "spike_ph",
+    "spike_id_lfprip",
+    "spike_ph_lfprip",
+    "lfpripple_logic",
+    "freqs",
+    "lfp_channels",
+    "lfp_channels_u",
+    "el_cnt",
+    "response",
+    "trials"
+  ],
+  "Repackaging": "Original file, bytes unchanged (renamed).",
+  "SamplingFrequency": 1000,
+  "FileFormat": "MATLAB v5 MAT"
+}

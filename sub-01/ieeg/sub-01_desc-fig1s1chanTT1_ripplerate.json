@@ -1,0 +1,15 @@
+{
+  "Description": "Figure 1: smoothed ripple rate (and SE) for correct and incorrect trials, electrode TT1.",
+  "Sources": [
+    "bids::sourcedata/dryad-5qfttdz6t/fig1_NIH025_s1_chanTT1_ripplerate.mat"
+  ],
+  "Variables": [
+    "ripplerate_sm_corr",
+    "ripplerate_sm_corr_se",
+    "ripplerate_sm_incorr",
+    "ripplerate_sm_incorr_se",
+    "timevec_sm"
+  ],
+  "Repackaging": "Original file, bytes unchanged (renamed).",
+  "FileFormat": "MATLAB v5 MAT"
+}

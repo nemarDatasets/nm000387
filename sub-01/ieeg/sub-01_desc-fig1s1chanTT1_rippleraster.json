@@ -1,0 +1,13 @@
+{
+  "Description": "Figure 1: detected ripple indicator, 44 trials x 5000 samples, electrode TT1.",
+  "Sources": [
+    "bids::sourcedata/dryad-5qfttdz6t/fig1_NIH025_s1_chanTT1_rippleraster.mat"
+  ],
+  "Variables": [
+    "ripple_raster_TT1",
+    "ripple_raster_time"
+  ],
+  "Repackaging": "Original file, bytes unchanged (renamed).",
+  "SamplingFrequency": 1000,
+  "FileFormat": "MATLAB v5 MAT"
+}

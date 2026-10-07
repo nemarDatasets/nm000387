@@ -1,0 +1,25 @@
+{
+  "participant_id": {
+    "Description": "Participant label in this dataset (sub-01 .. sub-07)."
+  },
+  "source_code": {
+    "Description": "Participant code used in the original Dryad release (file names and the Figure 2 'subjnames' variable). It is a research pseudonym of the NIH program; it does not appear in the article."
+  },
+  "figures": {
+    "Description": "Article figure(s) whose released data contain this participant."
+  },
+  "microelectrode_array": {
+    "Description": "Whether the participant is one of the six participants with anterior temporal lobe microelectrode arrays (Figure 2 file lists exactly these six). n/a = not stated for this participant in the release.",
+    "Levels": {
+      "yes": "MEA participant",
+      "n/a": "not stated"
+    }
+  },
+  "age": {
+    "Description": "Age in years. Not released per participant (group: 34.8 +/- 4.7 years for the six MEA participants).",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "Not released per participant (group: 4 of the six MEA participants female)."
+  }
+}

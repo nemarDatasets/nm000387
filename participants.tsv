@@ -1,0 +1,8 @@
+participant_id	source_code	figures	microelectrode_array	age	sex
+sub-01	NIH025	Fig1	n/a	n/a	n/a
+sub-02	NIH029	Fig2	yes	n/a	n/a
+sub-03	NIH030	Fig2	yes	n/a	n/a
+sub-04	NIH034	Fig2	yes	n/a	n/a
+sub-05	NIH037	Fig2,Fig3,Fig4	yes	n/a	n/a
+sub-06	NIH039	Fig2	yes	n/a	n/a
+sub-07	NIH042	Fig2	yes	n/a	n/a

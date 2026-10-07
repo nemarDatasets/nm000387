@@ -1,0 +1,14 @@
+{
+  "Description": "Figure 1: wavelet time-frequency power, 44 retrieval trials x 150 frequencies (1-150 Hz) x 5000 samples (-3.999..1.0 s around vocalization, 1 kHz), one medial temporal lobe iEEG electrode (TT1).",
+  "Sources": [
+    "bids::sourcedata/dryad-5qfttdz6t/fig1_NIH025_s1_chanTT1_data.mat"
+  ],
+  "Variables": [
+    "TF",
+    "freqvec",
+    "timevec"
+  ],
+  "Repackaging": "Original file, bytes unchanged (renamed).",
+  "SamplingFrequency": 1000,
+  "FileFormat": "MATLAB v5 MAT"
+}

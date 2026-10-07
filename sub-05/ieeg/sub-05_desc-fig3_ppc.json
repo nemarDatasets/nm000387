@@ -1,0 +1,12 @@
+{
+  "Description": "Figure 3: maximum LFP pairwise phase consistency and iEEG ripple amplitude per iEEG ripple (one cell per iEEG channel).",
+  "Sources": [
+    "bids::sourcedata/dryad-5qfttdz6t/fig3_LFP_iEEG_ripple_NIH037_PPC_computed.mat"
+  ],
+  "Variables": [
+    "LFPripple_ppc_max",
+    "iEEGripple_max"
+  ],
+  "Repackaging": "Original file, bytes unchanged (renamed).",
+  "FileFormat": "MATLAB v5 MAT"
+}

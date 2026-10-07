@@ -1,0 +1,58 @@
+{
+  "Name": "Ripples reflect a spectrum of synchronous spiking activity in human anterior temporal lobe (Tong et al., 2021): figure-level iEEG, micro-LFP and spiking arrays (derivative)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC0-1.0",
+  "Authors": [
+    "Ai Phuong Tong",
+    "Alex Vaz",
+    "John Wittig",
+    "Sara Inati",
+    "Kareem Zaghloul"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Authors' analysis pipeline (Tong et al., 2021, eLife 10:e68401, Materials and methods; custom MATLAB code)",
+      "Description": "iEEG (subdural/depth contacts), micro-LFP and sorted single units from 96-channel Utah microelectrode arrays in the anterior temporal lobe recorded during a paired-associates verbal memory task at the NIH Clinical Center; ripple-band (80-120 Hz) filtering, ripple detection, time-frequency power, spike-rate and pairwise phase consistency (PPC) analyses, exported by the authors as the MAT files that reproduce panels of Figures 1-4."
+    },
+    {
+      "Name": "FINISHER-05x repackaging (f05x_build054.py)",
+      "Description": "Repackaging only: original MAT files copied byte-for-byte into per-participant folders; the multi-participant Figure 2 file split into one MAT file per participant and session (values unchanged, exact round-trip); session date/time strings dropped. Code in code/.",
+      "CodeURL": "code/f05x_build054.py"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5061/dryad.5qfttdz6t",
+      "URL": "https://datadryad.org/dataset/doi:10.5061/dryad.5qfttdz6t",
+      "Version": "Dryad version 2 (published 2021-12-28); files obtained from the Dryad-community Zenodo replica https://zenodo.org/records/5808302 and checked against the Dryad sha-256 digests"
+    }
+  ],
+  "HowToAcknowledge": "Please cite Tong AP, Vaz AP, Wittig JH Jr, Inati SK, Zaghloul KA (2021) Ripples reflect a spectrum of synchronous spiking activity in human anterior temporal lobe. eLife 10:e68401, doi:10.7554/eLife.68401, and the Dryad dataset doi:10.5061/dryad.5qfttdz6t.",
+  "Funding": [
+    "National Institute of Neurological Disorders and Stroke F31 NS113400 to Alex P Vaz.",
+    "National Institute of Neurological Disorders and Stroke Intramural Research Program to Kareem A Zaghloul."
+  ],
+  "EthicsApprovals": [
+    "Data were collected at the Clinical Center at the National Institutes of Health (NIH; Bethesda, MD). The Institutional Review Board (IRB) approved the research protocol (11-N-0051), and informed consent was obtained from the participants and their guardians. (Tong et al. 2021, eLife 10:e68401, Ethics: Human subjects)"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.7554/eLife.68401",
+    "https://elifesciences.org/articles/68401",
+    "https://doi.org/10.5061/dryad.5qfttdz6t",
+    "https://zenodo.org/records/5808302"
+  ],
+  "Keywords": [
+    "iEEG",
+    "intracranial EEG",
+    "microelectrode array",
+    "local field potential",
+    "single units",
+    "ripples",
+    "anterior temporal lobe",
+    "episodic memory",
+    "paired associates",
+    "pairwise phase consistency",
+    "derivative"
+  ]
+}

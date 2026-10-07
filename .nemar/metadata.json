@@ -1,0 +1,101 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Ai Phuong Tong": {
+      "orcid": "0000-0002-2771-9504",
+      "affiliations": [
+        {
+          "name": "National Institutes of Health",
+          "identifier": "https://ror.org/01cwqze88",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Alex Vaz": {},
+    "John Wittig": {},
+    "Sara Inati": {},
+    "Kareem Zaghloul": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5061/dryad.5qfttdz6t",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.7554/eLife.68401",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000387",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000387",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Institute of Neurological Disorders and Stroke Intramural Research Program to Kareem A Zaghloul."
+    },
+    {
+      "funder_name": "National Institute of Neurological Disorders and Stroke",
+      "award_number": "F31 NS113400"
+    },
+    {
+      "funder_name": "National Institute of Neurological Disorders and Stroke Intramural Research Program"
+    }
+  ],
+  "title": "Ripples reflect a spectrum of synchronous spiking activity in human anterior temporal lobe (Tong et al., 2021): figure-level iEEG, micro-LFP and spiking arrays (derivative)",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "2.83 GB (17 files)"
+  ],
+  "formats": [
+    ".json",
+    ".mat",
+    ".md",
+    ".py",
+    ".rtf",
+    ".tsv"
+  ],
+  "description": "This derivative dataset repackages figure-level arrays from Tong et al. (2021), which studied ripples in the human anterior temporal lobe of patients with drug-resistant epilepsy. It contains iEEG, micro-LFP and sorted single-unit spiking data from 96-channel Utah microelectrode arrays, recorded during a paired-associates verbal memory task. The arrays include ripple-band signals, time-frequency power, ripple rasters, spike indices and pairwise phase consistency, and they reproduce panels of Figures 1-4 of the article. Raw continuous recordings are not included.",
+  "methods_description": "Participants with epilepsy implanted with subdural/depth contacts and Utah microelectrode arrays at the NIH Clinical Center performed a paired-associates verbal episodic memory task. iEEG was sampled at 1000 Hz, with line-noise removal and Morlet wavelet power. Single units were obtained by threshold crossing and manual spike sorting. Ripples were detected in the 80-120 Hz band using a Hilbert envelope threshold (>2 SD for at least 25 ms, peak >3 SD).",
+  "keywords": [
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "ripples"
+    },
+    {
+      "term": "microelectrode array"
+    },
+    {
+      "term": "single units"
+    },
+    {
+      "term": "anterior temporal lobe"
+    },
+    {
+      "term": "episodic memory"
+    }
+  ],
+  "source_hash": "459a9b3ac23e3a789fb474b7f517cfe8cb96cc5f1c89206d70ba4bae68363684"
+}

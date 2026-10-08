@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000387-blue)](https://doi.org/10.82901/nemar.nm000387)
+
 # Ripples reflect a spectrum of synchronous spiking activity in human anterior temporal lobe (Tong et al., 2021): figure-level arrays (derivative)
 
 **This is a processed-data (derivative) dataset.** It repackages the authors' public Dryad release

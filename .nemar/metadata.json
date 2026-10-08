@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Ripples reflect a spectrum of synchronous spiking activity in human anterior temporal lobe (Tong et al., 2021): figure-level iEEG, micro-LFP and spiking arrays (derivative)",
+  "description": "A derivative repackaging of the authors' public Dryad release accompanying Tong et al. (2021), containing figure-level arrays for panels of Figures 1-4. It includes epoched and band-filtered iEEG, micro-LFP from 96-channel Utah arrays, time-frequency power, ripple rasters and spike indices from the human anterior temporal lobe, recorded during a paired-associates verbal memory task in patients with drug-resistant epilepsy. The data support analyses showing that ripples reflect a spectrum of synchronous spiking activity. Raw continuous recordings are not included.",
+  "methods_description": "Participants with drug-resistant epilepsy were implanted with subdural and depth contacts, and six also had 96-channel microelectrode arrays in the anterior temporal lobe, at the NIH Clinical Center during a paired-associates verbal episodic memory task. iEEG was sampled at 1000 Hz, with line-noise removal and Morlet wavelet power. Micro-LFP was low-pass filtered at 500 Hz and downsampled to 1000 Hz, and single units were manually spike sorted. Ripples were detected in the 80-120 Hz band using a Hilbert envelope threshold of 2 SD for at least 25 ms with a peak above 3 SD.",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
   "authors": {
     "Ai Phuong Tong": {
       "orcid": "0000-0002-2771-9504",
@@ -17,6 +22,29 @@
     "Sara Inati": {},
     "Kareem Zaghloul": {}
   },
+  "keywords": [
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "microelectrode array"
+    },
+    {
+      "term": "local field potential"
+    },
+    {
+      "term": "ripples"
+    },
+    {
+      "term": "anterior temporal lobe"
+    },
+    {
+      "term": "episodic memory"
+    },
+    {
+      "term": "single units"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5061/dryad.5qfttdz6t",
@@ -51,14 +79,11 @@
       "funder_name": "National Institute of Neurological Disorders and Stroke Intramural Research Program"
     }
   ],
-  "title": "Ripples reflect a spectrum of synchronous spiking activity in human anterior temporal lobe (Tong et al., 2021): figure-level iEEG, micro-LFP and spiking arrays (derivative)",
-  "license": "CC0-1.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "2.83 GB (17 files)"
   ],
@@ -68,34 +93,8 @@
     ".md",
     ".py",
     ".rtf",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This derivative dataset repackages figure-level arrays from Tong et al. (2021), which studied ripples in the human anterior temporal lobe of patients with drug-resistant epilepsy. It contains iEEG, micro-LFP and sorted single-unit spiking data from 96-channel Utah microelectrode arrays, recorded during a paired-associates verbal memory task. The arrays include ripple-band signals, time-frequency power, ripple rasters, spike indices and pairwise phase consistency, and they reproduce panels of Figures 1-4 of the article. Raw continuous recordings are not included.",
-  "methods_description": "Participants with epilepsy implanted with subdural/depth contacts and Utah microelectrode arrays at the NIH Clinical Center performed a paired-associates verbal episodic memory task. iEEG was sampled at 1000 Hz, with line-noise removal and Morlet wavelet power. Single units were obtained by threshold crossing and manual spike sorting. Ripples were detected in the 80-120 Hz band using a Hilbert envelope threshold (>2 SD for at least 25 ms, peak >3 SD).",
-  "keywords": [
-    {
-      "term": "iEEG"
-    },
-    {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
-    },
-    {
-      "term": "ripples"
-    },
-    {
-      "term": "microelectrode array"
-    },
-    {
-      "term": "single units"
-    },
-    {
-      "term": "anterior temporal lobe"
-    },
-    {
-      "term": "episodic memory"
-    }
-  ],
-  "source_hash": "459a9b3ac23e3a789fb474b7f517cfe8cb96cc5f1c89206d70ba4bae68363684"
+  "source_hash": "7b03a819ad6fb614bd370fba0c4e3deaed9db5a7c5688e5277686646517c963b"
 }

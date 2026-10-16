@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Ripples reflect a spectrum of synchronous spiking activity in human anterior temporal lobe (Tong et al., 2021): figure-level iEEG, micro-LFP and spiking arrays (derivative)",
-  "description": "This derivative dataset repackages the authors' figure-level arrays from a study of ripples in the human anterior temporal lobe. It includes iEEG, micro-LFP and sorted single-unit data from 96-channel Utah microelectrode arrays, recorded in epilepsy patients during a paired-associates verbal memory task. The arrays cover ripple-band signals, time-frequency power, ripple rasters, spike indices and pairwise phase consistency, and reproduce panels of Figures 1-4 of the original article. Raw continuous recordings are not included.",
-  "methods_description": "Participants with drug-resistant epilepsy had subdural and depth contacts, and some also had 96-channel microelectrode arrays in the anterior temporal lobe. iEEG was sampled at 1000 Hz, with detrending and line-noise removal. Morlet wavelet power was computed, and retrieval epochs ran from 4 s before to 1 s after vocalization. Ripples were detected with an 80-120 Hz band-pass and a Hilbert envelope threshold. Single units were obtained by threshold crossing and manual spike sorting.",
+  "description": "This derivative dataset repackages figure-level arrays from Tong et al. (2021), which examined hippocampal-adjacent anterior temporal lobe ripples in patients with drug-resistant epilepsy performing a paired-associates verbal memory task. It contains iEEG time-frequency power, ripple-band signals, ripple rasters, micro-LFP and sorted single-unit spiking data from 96-channel Utah microelectrode arrays, covering 7 participants. The arrays reproduce panels of Figures 1-4 of the article and support analyses linking ripples to synchronous spiking activity. Raw continuous recordings are not included.",
+  "methods_description": "Participants with drug-resistant epilepsy were implanted with subdural and depth contacts, and six also had 96-channel microelectrode arrays in the anterior temporal lobe, at the NIH Clinical Center. iEEG was sampled at 1000 Hz and cleaned of line noise. Ripples were detected with an 80-120 Hz Butterworth band-pass and a Hilbert envelope threshold. Single units were obtained by threshold crossing and manual spike sorting, and analyses included Morlet wavelet power, spike rate and pairwise phase consistency.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -27,22 +27,22 @@
       "term": "intracranial EEG"
     },
     {
+      "term": "ripples"
+    },
+    {
       "term": "microelectrode array"
     },
     {
-      "term": "ripples"
+      "term": "local field potential"
+    },
+    {
+      "term": "single units"
     },
     {
       "term": "anterior temporal lobe"
     },
     {
       "term": "episodic memory"
-    },
-    {
-      "term": "single units"
-    },
-    {
-      "term": "local field potential"
     }
   ],
   "related_identifiers": [

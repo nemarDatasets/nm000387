@@ -1,5 +1,5 @@
 {
-  "Name": "Ripples reflect a spectrum of synchronous spiking activity in human anterior temporal lobe (Tong et al., 2021): figure-level iEEG, micro-LFP and spiking arrays (derivative)",
+  "Name": "Tong-2021-ripples-10.7554/elife.68401",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC0-1.0",
@@ -56,5 +56,5 @@
     "derivative"
   ],
   "DatasetDOI": "10.82901/nemar.nm000387",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
